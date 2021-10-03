@@ -15,7 +15,7 @@ int main()
     int queue[size];
     do
     {
-        printf("\n\n Circular Queue:\n1. Insert \n2. Delete\n3. Display\n0. Exit");
+        printf("\n\n\n Circular Queue:\n1. Insert \n2. Delete\n3. Display\n0. Exit");
         printf("\nEnter Choice 0-3? : ");
         scanf("%d", &ch);
         if(ch>4)
